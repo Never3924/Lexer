@@ -3,7 +3,7 @@ Lexical analyzer available in Java.
 
 ## Getting Started
 ### Install
-Jarファイルをダウンロードし、お使いのIDEなどに追加してください。
+Download the Jar file and add it to your IDE, etc.
 
 ### Usage
 ```java
@@ -11,6 +11,6 @@ String exampleLexerCode = "function('test function');";
 Lexer lexer = new Lexer(exampleLexerCode);
 Tokens tokens = lexer.parse();
 ```
-基本的にはこれらでパースできます。<br>
-パースした結果のTokensクラスはArrayListを拡張していますので、<br>
-あとは好きにコードを割り当てたりしてください。<br>
+Basically, these can be parsed.<br>
+Because the resulting parsed Tokens class extends ArrayList,<br>
+Then you can assign codes as you like.<br>
